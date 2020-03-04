@@ -1,0 +1,60 @@
+.yuan{
+	color: #FF4400;
+	font-size: 10px;
+}
+.price{
+	color: #FF4400;
+	font-weight: bold;
+	margin-left: 3px;
+}
+#hot_goods{
+	width: 1200px;
+	/*height: 500px;
+	background: #F5F5F5;*/
+	margin: 50px auto;
+}
+#hot_goods .hot_goods_title{
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	color: #ff242d;
+	border-bottom: 1px solid #CCCCCC;/*底部边框*/
+	padding-left: 10px;
+	background: white;
+}
+#hot_goods .hot_goods_list ul{
+	list-style: none;
+	background: #F5F5F5;
+	/*height: 330px;*/
+	/*background: red;*/
+	overflow: hidden;/*重点：如果子元素设置了浮动，父元素要么手动设置高度，要么清除浮动*/
+}
+#hot_goods .hot_goods_list ul li{
+	width: 236px;
+	height: 315px;
+	background: white;
+	padding: 5px;
+	float: left;/*如果子元素设置了浮动，是没有办法撑起父元素的高度*/
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#hot_goods .hot_goods_list ul li:nth-child(5n)/*选择器 选择第5 10*/{
+	margin-right: 0px;
+}
+#hot_goods .hot_goods_list img{
+	width: 220px;
+	height: 218px;
+	display: block;/*加上这个以及下面的那条语句才居中显示图片*/
+	margin: 0 auto;/*成为块元素*/
+}
+#hot_goods .hot_goods_list p{
+	font-size: 13px;
+	padding: 10px 6px;
+}
+#hot_goods .hot_goods_list ul a{
+	display: block;
+	width: 100%;
+	height: 315px;
+	padding: 5px;
+	text-decoration: none;
+}

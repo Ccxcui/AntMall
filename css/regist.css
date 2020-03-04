@@ -1,0 +1,121 @@
+body{
+	background: white;
+}
+#reg_header{
+	height: 110px;/*默认width为100%*/
+	/*background: red;*/
+	box-shadow: 5px 0px 5px #CCCCCC;
+	/*设置阴影 x轴水平方向的偏移量， y轴方向的偏移量，模糊程度 颜色*/
+}
+#reg_header .reg_h_center{
+	width: 1200px;
+	height: 110px;
+	margin: 0 auto;
+	/*background: blue;*/
+	display: flex;
+}
+#reg_header .reg_h_center .reg_h_left{
+	height: 110px;
+	/*background: green;*/
+	flex: 1;
+}
+#reg_header .reg_h_center .reg_h_left img{
+	width: 160px;
+	height: 100px;
+	float: left;
+}
+#reg_header .reg_h_center .reg_h_left h4{
+	float: left;
+	margin-top: 70px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+#reg_header .reg_h_center .reg_h_right{
+	height: 110px;
+	/*background: yellow;*/
+	flex: 1;
+	text-align: right;
+	padding-top: 60px;
+	padding-right: 20px;
+}
+#reg_header .reg_h_center .reg_h_right a{
+	float: right;
+	text-decoration: none;
+	font-size: 15px;
+	color: #666;
+	margin-left: 10px;
+}
+#reg_header .reg_h_center .reg_h_right span{
+	float: right;
+	font-size: 13px;
+	color: #666;
+}
+#reg_content{
+	width: 1200px;
+	/*background: red;*/
+	height: 700px;
+	margin: 20px auto;
+	display: flex;
+}
+#reg_content .reg_content_left{
+	flex: 2;
+	/*background: blue;*/
+}
+#reg_content .reg_content_left form{
+	margin: 50px auto;
+	display: block;/*margin 0 auto 才居中显示*/
+	/*background: #666666;*/
+	width: 450px;
+}
+#reg_content .reg_content_left form input{
+	border:none;
+}
+#reg_content .reg_content_left form input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 14px;
+}
+#reg_content .reg_content_left form img{
+	width: 108px;
+	height: 40px;
+	position: absolute;/*子绝父相*/
+	top:12px;
+	right: 10px;
+}
+#reg_content .reg_content_left form div{
+	width: 439px;
+	height: 64px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 20px;
+	line-height: 64px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #666;
+	position: relative;
+}
+#reg_content .reg_content_left form div:last-child{
+	border:none;
+	display: flex;
+	padding: 0;
+}
+#reg_content .reg_content_left form div:last-child input{
+	background: red;
+	width: 100px;
+	height: 64px;
+	flex: 1;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+#reg_content .reg_content_left form div:last-child input:hover{
+	cursor: pointer;
+}
+#reg_content .reg_content_left form div:last-child input:first-child{
+	margin-right: 100px;
+}
+#reg_content .reg_content_right{
+	flex: 1;
+	/*background: green;	*/
+	border-left: 1px solid #CCCCCC;
+	padding: 50px 0 0 50px;
+}

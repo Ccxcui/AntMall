@@ -1,0 +1,108 @@
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;/*设置padding会增加宽，高，不想增加的话，要加上box-sizing: border-box;*/
+			}
+			#header {
+				height: 88px;
+				/*background: #ccc;*/
+				border: ;
+			}
+			/*指明设置header里的*/
+			
+			#header .h_center {
+				width: 1200px;
+				height: 88px;
+				/*background: red;*/
+				margin: 0 auto;
+				/*居中*/
+			}
+			
+			#header .h_center img {
+				float: left;
+				margin-top: 5px;
+			}
+			
+			#header .h_center p {
+				float: left;
+				text-align: center;
+				/*文本居中*/
+				width: 700px;
+				font-size: 10px;
+				border: 1px solid #ffb4a8;
+				padding: 3px;
+				margin-top: 20px;
+				margin-left: 80px;
+				color: #6c6c6c;
+				background: #fef2f2;
+			}
+			#login_body{
+				height: 600px;
+				background-image: url(../img/login_bg.png);
+				background-position: center center;/*设置背景图片居中*/
+			}
+			#login_body .login_b_center{
+				width: 1200px;
+				height: 600px;
+				/*background: blue;*/
+				margin: 0 auto;/*居中*/
+				position: relative;
+			}
+			#login_body .login_b_center .login_bg{
+				width: 350px;
+				height: 351px;
+				background: rgba(255,255,255,0.9);
+				/*浮动 and 绝对定位 ：当单独的一个块选择绝对定位；多个元素选择浮动*/
+				position: absolute;
+				right: 10px;
+				top: 120px;
+				padding: 30px;
+			}
+			#login div{
+				height: 40px;
+				margin-top: 20px;
+			}
+			#login span{
+				width: 40px;
+				height: 40px;
+				display: inline-block;/*设置为内敛块样式,可以设置大小*/
+				border-right: none;/*设置右边框没有*/
+				float: left;
+				border: 1px #ccc solid;
+			}
+			#login .userName span{
+				background-image: url(../img/userName_Icon.png);
+				background-position: center center;/*设置背景图片居中*/
+			}
+			#login .password span{
+				background-image: url(../img/password_Icon.png);
+				background-position: center center;/*设置背景图片居中*/
+			}
+			#login input{/*设置输入框*/
+				width: 250px;
+				height: 40px;
+				float: left;
+			}
+			#login #btn .login_btn input{
+				background-color: #f40;
+				boder:none;
+				width: 100px;
+				color:white;
+				font-size: 20px;	
+			}
+			#login #btn .login_cancel input{
+				background-color: #f40;
+				boder:none;
+				width: 100px;
+				color:white;
+				font-size: 20px;
+				margin-left: 150px;	
+				margin-top: -60px;	
+			}
+			#login .forgot_pwd{
+				text-align: center;
+				margin-top: 40px;
+			}
+			a{
+				text-decoration: none;/*去掉横线*/
+			}
