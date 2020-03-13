@@ -63,10 +63,27 @@ body{
 }
 #reg_content .reg_content_left form{
 	margin: 50px auto;
+	margin-left:50px;
 	display: block;/*margin 0 auto 才居中显示*/
 	/*background: #666666;*/
 	width: 450px;
 }
+#reg_content .reg_content_left form span{
+	margin-top:10px;
+	margin-right: 10px;
+	float: right;
+	width: 150px;
+	text-align: center;
+	height: 35px;
+	display: block;
+	/*background: yellow;*/
+}
+.error{
+            color:red;
+            vertical-align: middle;
+           /* background: green;*/
+        }
+
 #reg_content .reg_content_left form input{
 	border:none;
 }
@@ -119,3 +136,17 @@ body{
 	border-left: 1px solid #CCCCCC;
 	padding: 50px 0 0 50px;
 }
+
+.input-val {
+  width: 200px;
+  height: 32px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  }
+  #canvas {
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  }
+ 
